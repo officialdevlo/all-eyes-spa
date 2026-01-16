@@ -36,7 +36,7 @@ export function Hero() {
                             <Button size="lg" className="w-full sm:w-auto shadow-xl shadow-[var(--secondary)]/20">
                                 Get Free Demo Leads
                             </Button>
-                            <Button variant="outline" size="lg" className="w-full sm:w-auto" href="https://wa.me/911234567890">
+                            <Button variant="outline" size="lg" className="w-full sm:w-auto" href="https://wa.me/918887048276?text=Hi%2C%20I%20am%20interested%20in%20your%20lead%20generation%20services.">
                                 WhatsApp Us
                             </Button>
                         </div>
@@ -62,9 +62,9 @@ export function Hero() {
                         <div className="relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gray-100 border-4 border-white">
                             {/* Placeholder for realistic image */}
                             <div className="absolute inset-0 bg-neutral-200 flex items-center justify-center text-neutral-400">
-                                [Premium Spa Image / Dashboard Mockup]
+                                <img src=".././dashboard.png" alt="[Premium Spa Image / Dashboard Mockup]" />
                             </div>
-                            {/* 
+                            {/*  
                   NOTE: In production, use next/image here. 
                   Example: <Image src="/hero-spa.jpg" alt="Luxury Spa" fill className="object-cover" />
                */}

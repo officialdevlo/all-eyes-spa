@@ -9,7 +9,7 @@ export function Process() {
     ];
 
     return (
-        <Section id="process" className="bg-[var(--primary)] text-white">
+        <Section id="process" background="dark">
             <div className="text-center mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
                 <p className="text-white/60">Simple 4-step process to get started.</p>

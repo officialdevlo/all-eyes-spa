@@ -15,6 +15,7 @@ export function Pricing() {
                 "Basic WhatsApp Script",
             ],
             cta: "Start Scaling",
+            href: "https://wa.me/918887048276?text=Hi%2C%20I%20am%20interested%20in%20the%20Starter%20Plan%20for%20my%20spa."
         },
         {
             name: "Growth",
@@ -29,6 +30,7 @@ export function Pricing() {
                 "CRM Integration",
             ],
             cta: "Get Growth Plan",
+            href: "https://wa.me/918887048276?text=Hi%2C%20I%20am%20interested%20in%20the%20Growth%20Plan%20for%20my%20spa."
         },
         {
             name: "Scale",
@@ -42,6 +44,7 @@ export function Pricing() {
                 "Revenue Guarantee Model",
             ],
             cta: "Contact Us",
+            href: "https://wa.me/918887048276?text=Hi%2C%20I%20want%20to%20discuss%20the%20Scale%20Plan%20for%20my%20franchise."
         },
     ];
 
@@ -83,7 +86,7 @@ export function Pricing() {
                             ))}
                         </ul>
 
-                        <Button className="w-full" variant={plan.popular ? "primary" : "outline"}>
+                        <Button className="w-full" variant={plan.popular ? "primary" : "outline"} href={plan.href}>
                             {plan.cta}
                         </Button>
                     </div>

@@ -49,7 +49,7 @@ export function Solution() {
                 <div className="flex-1 w-full bg-neutral-100 rounded-2xl min-h-[400px] flex items-center justify-center relative overflow-hidden">
                     {/* Placeholder for process graphic */}
                     <div className="absolute inset-0 bg-neutral-200 flex items-center justify-center text-neutral-400">
-                        [Infographic: Ads &rarr; Filter &rarr; Booking]
+                        <img src=".././ads.png" alt="[Infographic: Ads &rarr; Filter &rarr; Booking]" />
                     </div>
                 </div>
             </div>

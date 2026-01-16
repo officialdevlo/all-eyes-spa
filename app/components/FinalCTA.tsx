@@ -13,10 +13,10 @@ export function FinalCTA() {
                     Stop guessing. Start growing. Join 50+ spa owners who scaled with us in 2024.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" className="text-lg px-10">
+                    <Button size="lg" className="text-lg px-10" href="https://wa.me/918887048276?text=Hi%2C%20I%20want%20to%20book%20a%20strategy%20call.">
                         Book Your Strategy Call
                     </Button>
-                    <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black">
+                    <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black" href="https://wa.me/918887048276?text=Hi%2C%20I%20have%20a%20question%20about%20your%20services.">
                         Message on WhatsApp
                     </Button>
                 </div>
