@@ -32,7 +32,7 @@ export function Button({
         lg: "h-14 px-8 text-lg",
     };
 
-    const combinedClasses = `${baseStyles} ${variants[variant]} ${sizes[size]} ${className || ""}`;
+    const combinedClasses = cn(baseStyles, variants[variant], sizes[size], className);
 
     if (href) {
         return (
